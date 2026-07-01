@@ -2,6 +2,9 @@
 
 The frontend client for the e-commerce game key web store, built using Angular. It features dynamic product filtering, cart management, and client-side routing.
 
+**Live Demo**: [game-key-ecommerce-angular.vercel.app](https://game-key-ecommerce-angular-ew86-eight.vercel.app/home)
+
+
 ## Features
 
 * **Product Catalog**: Browsing and filtering available game keys.
