@@ -1,1 +1,13 @@
 <router-outlet></router-outlet>
+
+@if (serverLoading.isVisible()) {
+  <div class="server-loading-overlay" role="status" aria-live="polite">
+    <div class="server-loading-card">
+      <div class="server-loading-spinner"></div>
+      <p class="server-loading-title">กำลังโหลด server...</p>
+      <p class="server-loading-subtitle">
+        Server กำลังเปิดใช้งาน กรุณารอสักครู่ (ครั้งแรกอาจใช้เวลา 1–2 นาที)
+      </p>
+    </div>
+  </div>
+}
